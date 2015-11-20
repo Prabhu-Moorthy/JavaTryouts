@@ -52,7 +52,7 @@ public class PrimeMain {
 			System.out.println("With Threads");
 			System.out.println("Largest Prime  : " + pp.getReturnedPrime());
 			System.out.println("Total number of threads spawned : " + numList.size());
-			System.out.println("Time taken : " + totalTime);
+			System.out.println("Time taken : " + totalTime + "secs");
 		}catch(NumberFormatException nem){
 			System.out.println("Please a positive number less than " + Long.MAX_VALUE);
 		} catch (InterruptedException e) {
