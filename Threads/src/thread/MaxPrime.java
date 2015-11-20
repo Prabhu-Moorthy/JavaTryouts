@@ -1,9 +1,5 @@
 package thread;
-/**
- * This program finds the maximum prime integer 
- * @author v774137
- *
- */
+
 public class MaxPrime {
 	
 	public static int findprime(int _startVal,int _endVal,int maxPrime){
@@ -21,8 +17,8 @@ public class MaxPrime {
 		}
 		return findprime(_startVal+1,_endVal,maxPrime);
 	}
-	
+
 	public static void main(String[] args) {
-		System.out.println(findprime(1,10000,1));
+		System.out.println(findprime(1,99999,1));
 	}
 }
